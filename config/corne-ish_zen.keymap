@@ -107,7 +107,7 @@
                         key-positions = <22 23>;
                         bindings = <&kp DOUBLE_QUOTES>;
                 };
-                combo_tab {
+                combo_underscore {
                         timeout-ms = <50>;
                         key-positions = <31 32>;
                         bindings = <&kp UNDERSCORE>;

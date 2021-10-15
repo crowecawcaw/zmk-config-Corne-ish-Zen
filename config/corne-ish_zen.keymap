@@ -23,17 +23,17 @@
    &none        &kp Q   &kp W   &kp E   &kp R   &kp T                   &kp Y   &kp U   &kp I    &kp O   &kp P              &none
    &none        &mt LCTL A &kp S &kp D  &kp F   &kp G                   &kp H   &kp J   &kp K    &kp L   &kp QUOT           &none
    &none        &mt LCTRL Z &kp X &kp C &kp V   &kp B                   &kp N   &kp M   &kp CMMA &kp DOT &kp FSLH           &none
-                        &kp LALT &mt LCMD ENTER &lt SYMBOL SPC          &lt NUMPAD SPC &mo ENTER &kp F13
+                        &kp LALT &mt LCMD ENTER &lt SYMBOL SPC          &lt NUMPAD SPC &kp ENTER &none
                         >;
                 };
 
                 symbol_layer {
                         label = "SYMBOL";
                         bindings = <
-   &none        &kp EXCL &kp AT &kp LBKT &kp RBKT &kp T         &kp GRAVE &kp TILDE &none    &none   &kp BACKSLASH                 &none
-   &none        &kp HASH &kp DLLR &kp LPAR &kp RPAR &kp G       &kp PLUS &kp MINUS &kp SLASH &kp ASTERISK &kp SINGLE_QUOTE         &none
-   &none        &kp PRCNT &kp CARET &kp LBKT &kp RBKT &kp B     &kp AMPS &kp EQUAL &kp COMMA &kp PERIOD &none                      &none
-                        &none &none &none                      &none &mo none &none
+   &none        &kp EXCL &kp AT &kp LBRC &kp RBRC &none         &kp GRAVE &kp TILDE &none    &none   &kp BACKSLASH                 &none
+   &none        &kp HASH &kp DLLR &kp LPAR &kp RPAR &none       &kp PLUS &kp MINUS &kp SLASH &kp ASTERISK &kp SINGLE_QUOTE         &none
+   &none        &kp PRCNT &kp CARET &kp LBKT &kp RBKT &none     &kp AMPS &kp EQUAL &kp COMMA &kp PERIOD &none                      &none
+                        &none &none &none                       &none &none &none
                         >;
                 };
 

@@ -21,7 +21,7 @@
                         label = "QWERTY";
                         bindings = <
    &none        &kp Q   &kp W   &kp E   &kp R   &kp T                   &kp Y   &kp U   &kp I    &kp O   &kp P              &none
-   &none        &mt LCTL A &kp S &kp D  &kp F   &kp G                   &kp H   &kp J   &kp K    &kp L   &kp QUOT           &none
+   &none        &mt LCTL A &kp S &kp D  &kp F   &kp G                   &kp H   &kp J   &kp K    &kp L   &kp SEMI           &none
    &none        &mt LCTRL Z &kp X &kp C &kp V   &kp B                   &kp N   &kp M   &kp CMMA &kp DOT &kp FSLH           &none
                         &kp LALT &mt LCMD ENTER &lt SYMBOL SPC          &lt NUMPAD SPC &kp ENTER &kp DEL
                         >;
@@ -66,13 +66,18 @@
                 };
                 combo_single_quote {
                         timeout-ms = <50>;
-                        key-positions = <21 22>;
+                        key-positions = <20 21>;
                         bindings = <&kp SINGLE_QUOTE>;
                 };
                 combo_double_quote {
                         timeout-ms = <50>;
-                        key-positions = <22 23>;
+                        key-positions = <32 33>;
                         bindings = <&kp DOUBLE_QUOTES>;
+                };
+                combo_dash {
+                        timeout-ms = <50>;
+                        key-positions = <19 20>;
+                        bindings = <&kp MINUS>;
                 };
                 combo_underscore {
                         timeout-ms = <50>;

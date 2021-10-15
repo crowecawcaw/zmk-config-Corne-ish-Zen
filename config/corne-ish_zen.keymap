@@ -80,4 +80,38 @@
                         >;
                 };
         };
+        combos {
+                compatible = "zmk,combos";
+                combo_esc {
+                        timeout-ms = <50>;
+                        key-positions = <0 1>;
+                        bindings = <&kp ESC>;
+                };
+                combo_bksp {
+                        timeout-ms = <50>;
+                        key-positions = <14 15>;
+                        bindings = <&kp BACKSPACE>;
+                };
+                combo_tab {
+                        timeout-ms = <50>;
+                        key-positions = <15 16>;
+                        bindings = <&kp TAB>;
+                };
+                combo_single_quote {
+                        timeout-ms = <50>;
+                        key-positions = <21 22>;
+                        bindings = <&kp SINGLE_QUOTE>;
+                };
+                combo_double_quote {
+                        timeout-ms = <50>;
+                        key-positions = <22 23>;
+                        bindings = <&kp DOUBLE_QUOTES>;
+                };
+                combo_tab {
+                        timeout-ms = <50>;
+                        key-positions = <31 32>;
+                        bindings = <&kp UNDERSCORE>;
+                };
+        };
+
 };

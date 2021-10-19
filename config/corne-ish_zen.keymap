@@ -21,8 +21,8 @@
                         label = "QWERTY";
                         bindings = <
    &none        &kp Q   &kp W   &kp E   &kp R   &kp T                   &kp Y   &kp U   &kp I    &kp O   &kp P              &none
-   &none        &mt LCTL A &kp S &kp D  &kp F   &kp G                   &kp H   &kp J   &kp K    &kp L   &kp SEMI           &none
-   &none        &mt LCTRL Z &kp X &kp C &kp V   &kp B                   &kp N   &kp M   &kp CMMA &kp DOT &kp FSLH           &none
+   &none        &mt LCTRL A &kp S &kp D  &kp F   &kp G                  &kp H   &kp J   &kp K    &kp L   &kp SEMI           &none
+   &none        &mt LSHIFT Z &kp X &kp C &kp V   &kp B                  &kp N   &kp M   &kp CMMA &kp DOT &mt LSHIFT FSLH    &none
                         &kp LALT &mt LCMD ENTER &lt SYMBOL SPC          &lt NUMPAD SPC &kp ENTER &kp DEL
                         >;
                 };

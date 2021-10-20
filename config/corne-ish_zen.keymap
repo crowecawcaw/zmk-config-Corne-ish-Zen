@@ -35,7 +35,7 @@
                 symbol_layer {
                         label = "SYMBOL";
                         bindings = <
-   &trans        &kp EXCL &kp AT &kp LBRC &kp RBRC &trans         &kp GRAVE &kp TILDE &trans    &trans   &kp BACKSLASH                  &trans
+   &trans        &kp EXCL &kp AT &kp LBRC &kp RBRC &kp PIPE         &kp GRAVE &kp TILDE &trans    &trans   &kp BACKSLASH                  &trans
    &trans        &kp HASH &kp DLLR &kp LPAR &kp RPAR &trans       &kp PLUS &kp MINUS &kp SLASH &kp ASTERISK &kp SINGLE_QUOTE            &trans
    &trans        &kp PRCNT &kp CARET &kp LBKT &kp RBKT &trans     &kp AMPS &kp EQUAL &kp COMMA &kp PERIOD &trans                        &trans
                         &trans &trans &trans                       &trans &trans &trans

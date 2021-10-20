@@ -15,7 +15,7 @@
 
 &mt {
     retro-tap;
-    flavor = "tap-preferred"
+    flavor = "tap-preferred";
 };
 
 / {

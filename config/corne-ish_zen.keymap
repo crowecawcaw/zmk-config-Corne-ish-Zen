@@ -14,8 +14,7 @@
 #define NUMPAD 2
 
 &mt {
-    retro-tap;
-    flavor = "tap-preferred";
+    tapping-term-ms = <100>;
 };
 
 / {
